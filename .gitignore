@@ -1,1 +1,25 @@
 /server/node_modules
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/notes-fronted/node_modules
+/notes-fronted/.pnp
+/notes-fronted/.pnp.js
+
+# testing
+/notes-fronted/coverage
+
+# production
+/notes-fronted/build
+
+# misc
+/notes-fronted/.DS_Store
+/notes-fronted/.env.local
+/notes-fronted/.env.development.local
+/notes-fronted/.env.test.local
+/notes-fronted/.env.production.local
+
+/notes-fronted/npm-debug.log*
+/notes-fronted/yarn-debug.log*
+/notes-fronted/yarn-error.log*
